@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="chatstyle.css"> -->
+    <title>Simple Chatbot</title>
+</head>
+<body>
+    
+    <div id="chatbox">
+        <div class="flex"></div>
+        <div>
+            <h1>CHAT BOT</h1>
+        </div>
+        <div class="chat friend">
+            <div class="user-photo">
+                <img src="user.png" alt="user">
+            </div>
+            <p id="midResult" style="color: blue;"></p>
+            <p class="chat-message" id="result"></p>
+            <div id="warning"></div>
+        </div>
+        <div class="input">
+            <div class="chat-form">
+                <textarea name="answer" id="ans" cols="30" rows="5" style="color: black;"></textarea>
+            </div>
+            <button type="submit" id="submit" onclick="submitMessage();">Send</button>
+        </div>
+    </div>
+
+
+    <!-- <script src= "js/jquery-1.11.1.min.js"></script> -->
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
